@@ -21,7 +21,7 @@ function Question( {id, title, info} ) {
                 width: "600px",
                 padding: "20px" 
             }}
-            elevation={24}
+            elevation={6}
         >
         <Box
             sx={{
