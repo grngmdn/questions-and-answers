@@ -6,8 +6,6 @@ import { Button, CardActionArea, CardActions } from '@mui/material';
 import { AiOutlineMinus, AiOutlinePlus } from 'react-icons/ai';
 
 
-
-
 function Question( {id, title, info} ) {
 
     const [showInfo, setShowInfo] = useState(false)
@@ -21,7 +19,6 @@ function Question( {id, title, info} ) {
         <Card
             sx={{ 
                 width: "600px",
-                // height: "120px",
                 padding: "20px" 
             }}
             elevation={24}
